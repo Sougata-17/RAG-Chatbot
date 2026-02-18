@@ -23,12 +23,6 @@ Instead of generating generic responses, the chatbot retrieves relevant informat
 - Groq LLM
 - RAG Architecture
 
----
-
-## 📂 Project Structure
-
-
-
 ## 🧠 How It Works
 1. Document Ingestion Pipeline
 2. Upload document (PDF/TXT)
@@ -44,20 +38,3 @@ Instead of generating generic responses, the chatbot retrieves relevant informat
 4. Send context + question to LLM
 5. Generate final answer
 
-## ARCHITECTURE:
-
-User → Streamlit UI → FastAPI Server
-                ↓
-         Document Processing
-   (Loader → Chunker → Embeddings → FAISS)
-                ↓
-           Retriever
-                ↓
-           LLM (Groq)
-                ↓
-             Answer
-
-
-Send context + question to LLM
-
-Generate final answer
