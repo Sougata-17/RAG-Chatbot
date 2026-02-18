@@ -2,15 +2,32 @@
 A Retrieval-Augmented Generation (RAG) based AI chatbot that answers user queries from uploaded documents (PDF or TXT) using semantic search and a Large Language Model.
 Instead of generating generic responses, the chatbot retrieves relevant information from documents and produces accurate, context-aware answers.
 
-## 🚀 Features
-✅  Upload PDF or TXT documents
-✅  Automatic document processing and indexing
-✅  Semantic search using vector embeddings
-✅  FAISS vector database for fast retrieval
-✅  Context-aware answer generation using LLM
-✅  FastAPI backend API
-✅  Interactive Streamlit user interface
-✅  Real-time document question answering
+## ⚡ Features
+
+✅ Upload PDF or TXT files  
+✅ Automatic document indexing  
+✅ Semantic search using embeddings  
+✅ Context-aware AI responses  
+✅ FastAPI backend  
+✅ Streamlit interactive UI  
+✅ Vector database (FAISS)  
+
+
+## 🛠 Tech Stack
+
+- Python
+- FastAPI
+- Streamlit
+- FAISS
+- Sentence Transformers
+- Groq LLM
+- RAG Architecture
+
+---
+
+## 📂 Project Structure
+
+
 
 ## 🧠 How It Works
 1. Document Ingestion Pipeline
